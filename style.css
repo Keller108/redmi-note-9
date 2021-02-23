@@ -26,9 +26,9 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 450px;
+    height: auto;
     color: #242424 !important;
-    background-image: url("assets/redmi-note-9__header-section-image.svg");
+    background-image: url("assets/redmi-note-9__header-section-image-2.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,6 +38,7 @@
 }
 
 .redmi-note-9__title {
+    max-width: 460px;
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2;
@@ -51,6 +52,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.redmi-note-9__description-list_clr_white {
+    color: #fff !important;
+}
+
+.redmi-note-9__description-list_fixed-width {
+    max-width: 420px;
 }
 
 .redmi-note-9__description-list-item {
@@ -141,7 +150,69 @@
     box-sizing: border-box;
     padding: 90px;
     margin: 0;
-    background-image: url("");
+    background-image: url("assets/redmi-note-9__global-new-image.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.redmi-note-9__text-on-pic-section_type_two {
+    color: #242424 !important;
+    background-image: url("assets/redmi-note-9__header-section-image.svg");
+}
+
+.redmi-note-9__double-pic-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.redmi-note-9__double-pic-item {
+    width: 390px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.redmi-note-9__double-column-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #242424 !important;
+}
+
+.redmi-note-9__double-column-text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 90px;
+    padding-right: 0;
+    width: calc(50% - 10px);
+}
+
+.redmi-note-9__double-column-image-wrapper {
+    width: calc(50% - 10px);
+    height: auto;
+}
+
+.redmi-note-9__double-column-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
 }
