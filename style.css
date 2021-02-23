@@ -216,3 +216,44 @@
     object-fit: contain;
     object-position: center;
 }
+
+@media (max-width: 680px) {
+    .redmi-note-9__header-section {
+        padding: 30px;
+    }
+    .redmi-note-9__double-column-section {
+        flex-direction: column;
+    }
+    .redmi-note-9__double-column-text-wrapper {
+        padding-right: 90px;
+        width: 100%;
+    }
+    .redmi-note-9__double-column-image-wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .redmi-note-9__header-section {
+        padding: 30px;
+    }
+    .redmi-note-9__description-list-item_clr_white {
+        padding: 5px;
+        margin-bottom: 5px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    .redmi-note-9__regular-section {
+        padding: 30px;
+    }
+    .redmi-note-9__double-column-text-wrapper {
+        padding: 30px;
+    }
+    .redmi-note-9__text-on-pic-section {
+        padding: 30px;
+        height: auto;
+    }
+    .redmi-note-9__text-on-pic-section-left {
+        padding: 30px;
+        height: auto;
+    }
+}
