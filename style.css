@@ -213,6 +213,9 @@
 }
 
 @media (max-width: 680px) {
+    .redmi-note-9__title {
+        width: 50%;
+    }
     .redmi-note-9__double-column-section {
         flex-direction: column;
     }
